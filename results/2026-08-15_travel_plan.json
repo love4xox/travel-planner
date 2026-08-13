@@ -1,0 +1,60 @@
+{
+  "recommended_city_info": {
+    "recommended_city": "강원도 강릉시",
+    "weather": "8월 중순은 무더운 성수기 여름 날씨로 피서하기에 좋은 시기입니다.",
+    "events": [
+      "강릉 경포 해수욕장 축제",
+      "강릉 수제맥주 축제"
+    ],
+    "reason": "8월 중순은 시원한 동해 바다와 경포대 해수욕장에서 여름 피서를 즐기기에 최고의 여행지입니다."
+  },
+  "places": [
+    {
+      "name": "해성집",
+      "address": "강원특별자치도 강릉시 금성로 21",
+      "category": "음식점 > 한식 > 해물,생선 > 회",
+      "url": "http://place.map.kakao.com/8606955",
+      "x": 128.898982081968,
+      "y": 37.7540157398762
+    },
+    {
+      "name": "회산장칼국수",
+      "address": "강원특별자치도 강릉시 토성로 65",
+      "category": "음식점 > 한식 > 국수 > 칼국수",
+      "url": "http://place.map.kakao.com/23510943",
+      "x": 128.884986578464,
+      "y": 37.7511884278088
+    },
+    {
+      "name": "벌집",
+      "address": "강원특별자치도 강릉시 경강로2069번길 15",
+      "category": "음식점 > 한식 > 국수",
+      "url": "http://place.map.kakao.com/9072806",
+      "x": 128.8928187004322,
+      "y": 37.75449507584071
+    },
+    {
+      "name": "일출식당",
+      "address": "강원특별자치도 강릉시 강동면 정동1길 7",
+      "category": "음식점 > 한식 > 해물,생선",
+      "url": "http://place.map.kakao.com/8058837",
+      "x": 129.0327029327106,
+      "y": 37.69075698033197
+    },
+    {
+      "name": "천일식당",
+      "address": "강원특별자치도 강릉시 옥천로61번길 6",
+      "category": "음식점 > 한식",
+      "url": "http://place.map.kakao.com/10858856",
+      "x": 128.89879848133066,
+      "y": 37.759348980402045
+    }
+  ],
+  "errors": [
+    {
+      "step": "llm_recommendation",
+      "type": "JSON_PARSE_ERROR",
+      "message": "LLM 파싱 최종 실패: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}"
+    }
+  ]
+}

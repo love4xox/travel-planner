@@ -8,4 +8,4 @@ venv/
 .venv/
 
 # 실행 결과물 (필요에 따라 제출용으로 올려야 한다면 주석 처리 가능)
-results/
+# git add .results/
