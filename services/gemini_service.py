@@ -1,8 +1,11 @@
 import os
 import re
 import json
+from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+
+load_dotenv()
 
 def get_travel_recommendations_json(date_string: str, tracker=None) -> dict:
     """
@@ -37,7 +40,7 @@ def get_travel_recommendations_json(date_string: str, tracker=None) -> dict:
     for attempt in range(1, 3):
         try:
             response = client.models.generate_content(
-                model="gemini-1.5-flash",
+                model="gemini-3.5-flash",
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json"
